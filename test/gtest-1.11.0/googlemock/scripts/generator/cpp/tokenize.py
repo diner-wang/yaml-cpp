@@ -17,12 +17,8 @@
 
 """Tokenize C++ source code."""
 
-try:
-    # Python 3.x
-    import builtins
-except ImportError:
-    # Python 2.x
-    import __builtin__ as builtins
+# Python 3.x
+import builtins
 
 
 import sys
